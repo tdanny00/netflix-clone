@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index:100;
+    background-color: black;
+
+}
+.header__logo{
+    padding: 1rem 0;
+    height: 30px;
+    justify-content: center;
+    margin-left: 26px;
+}
+.header__login{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
